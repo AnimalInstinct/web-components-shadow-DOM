@@ -22,7 +22,6 @@ class Tooltip extends HTMLElement {
     
     connectedCallback() {
         this._tooltipText = this.getAttribute('text');
-        console.log('Connected callback');
         const tooltipIcon = this.shadowRoot.querySelector('span')
         tooltipIcon.addEventListener('mouseenter', this._showTooltip.bind(this))
         tooltipIcon.addEventListener('mouseleave', this._hideTooltip.bind(this))
@@ -30,19 +29,16 @@ class Tooltip extends HTMLElement {
     }
 
     _showTooltip() {
-        console.log('Show tooltip');
         this._tooltipContainer = document.createElement('div');
         this._tooltipContainer.textContent = this._tooltipText || "Dummy"
         this.shadowRoot.appendChild(this._tooltipContainer);
     }
 
     _hideTooltip() {
-        console.log('Hide Tooltip');
         this.shadowRoot.removeChild(this._tooltipContainer)
     }
 
     disconnectedCallback() {
-        console.log('DisconnectedCallback');
     }
 }
 
