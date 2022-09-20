@@ -1,8 +1,11 @@
 div {
+    width: 200px;
     display: none;
-    padding: 20px 40px;
+    padding: 40px;
     color: aliceblue;
     background-color: tomato;
+
+    position: relative;
 }
 
 button {
@@ -12,7 +15,11 @@ button {
 }
 
 p {
-    padding: 100px;
-    background-color: tomato;
+    background-color: aquamarine;
     color: white;
+}
+
+::slotted(span) {
+    color: green;
+    background-color: yellow;
 }

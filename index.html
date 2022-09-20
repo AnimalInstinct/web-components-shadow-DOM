@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,23 @@
     <script src="tooltip.js"></script>
     <script src="confirm-link.js"></script>
     <script src="collapsible.js"></script>
+
+    <link rel="stylesheet" href="app.css">
 </head>
+
 <body>
-    <p><components-tooltip text="Tooltip text">Some text</components-tooltip></p>
-    <p><components-tooltip>Some another text</components-tooltip></p>
+    <p>
+        <components-tooltip text="Tooltip text">Some text</components-tooltip>
+    </p>
+    <p>
+        <components-tooltip>Some another text</components-tooltip>
+    </p>
     <a is="confirm-link" href="https://google.com">Google</a>
-
-    <p><components-collapsible><span>Lorem ipsum dolor sit amet...</span></components-collapsible></p>
-
+    <p>
+        <components-collapsible>
+            <span>Lorem ipsum dolor sit amet...</span>
+        </components-collapsible>
+    </p>
 </body>
+
 </html>
