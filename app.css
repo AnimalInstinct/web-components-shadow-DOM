@@ -1,3 +1,8 @@
+p {
+    position: relative;
+    width: fit-content;
+}
+
 span {
     /* background-color: hsl(271, 76%, 53%); */
     /* color: blanchedalmond; */

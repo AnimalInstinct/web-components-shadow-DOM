@@ -2,8 +2,18 @@ div {
     background-color: grey;
     color: white;
     position: absolute;
+    right: -30px;
+    top: -20px;
 }
 
 p {
     position: relative;
+}
+
+span {
+    background-color: blue;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5rem;
+    cursor: pointer;
 }

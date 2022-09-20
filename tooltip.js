@@ -8,7 +8,7 @@ class Tooltip extends HTMLElement {
             @import "tooltip.css";
         </style>
         <slot>Default tooltip text</slot>
-        <span>(?)</span>
+        <span>?</span>
         `;
     }
     
