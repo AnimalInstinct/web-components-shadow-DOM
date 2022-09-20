@@ -1,5 +1,18 @@
+:host {
+    display: block;
+}
+
+:host(.important) {
+    background-color: tomato;
+}
+
+:host-context(p) {
+    font-style: italic;
+}
+
 div {
-    background-color: grey;
+    padding: 5px;
+    background-color: blue;
     color: white;
     position: absolute;
     right: -30px;

@@ -4,8 +4,11 @@ p {
 }
 
 span {
-    /* background-color: hsl(271, 76%, 53%); */
-    /* color: blanchedalmond; */
     padding: 10px 5px;
+}
+
+components-tooltip {
+    border: 1px solid blue;
+    padding: 40px 20px;
 }
 

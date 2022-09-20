@@ -23,3 +23,7 @@ p {
     color: green;
     background-color: yellow;
 }
+
+:host {
+    display: block;
+}

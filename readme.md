@@ -1,4 +1,4 @@
-# Web components examples
+# Web components and Shadow DOM examples playground
 
 ## Tooltip
 
@@ -11,5 +11,7 @@ ConfirmLink web component extends basic HTMLAnchorElement functionality with con
 ## Collapsible
 
 One more example of web components represents something that could be collapsed, like drop down menu, drawer etc.
+
+## Styling
 
 Notice that styles used in these web components are not collapsed between each other, using selectors like `div` and `p`.
