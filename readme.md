@@ -7,3 +7,7 @@ Example of fully reusable web component with styles isolated using shadow DOM co
 ## ConfirmLink
 
 ConfirmLink web component extends basic HTMLAnchorElement functionality with confirmation for the user before leave.
+
+## Collapsible
+
+One more example of web components represents something that could be collapsed, like drop down menu, drawer etc.

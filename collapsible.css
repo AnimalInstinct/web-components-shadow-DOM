@@ -1,0 +1,18 @@
+div {
+    display: none;
+    padding: 20px 40px;
+    color: aliceblue;
+    background-color: tomato;
+}
+
+button {
+    padding: 20px 40px;
+    background-color: green;
+    color: white;
+}
+
+p {
+    padding: 100px;
+    background-color: tomato;
+    color: white;
+}

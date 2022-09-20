@@ -1,0 +1,9 @@
+div {
+    background-color: grey;
+    color: white;
+    position: absolute;
+}
+
+p {
+    position: relative;
+}

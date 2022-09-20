@@ -4,19 +4,11 @@ class Tooltip extends HTMLElement {
         this._tooltipContainer;
         this.attachShadow({ mode: 'open' })
         this.shadowRoot.innerHTML = `
-            <style>
-                div {
-                    background-color: grey;
-                    color: white;
-                    position: absolute;
-                }
-
-                p {
-                    position: relative;
-                }
-            </style>
-            <slot>Default tooltip text</slot>
-            <span>(?)</span>
+        <style>
+            @import "tooltip.css";
+        </style>
+        <slot>Default tooltip text</slot>
+        <span>(?)</span>
         `;
     }
     
