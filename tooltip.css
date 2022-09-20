@@ -1,15 +1,12 @@
-
-
-
 :host {
     display: block;
-    background-color: var(--background-primary);
-    color: var(--color-primary);
+    background-color: var(--background-primary, white);
+    color: var(--color-primary, black);
 }
 
 :host(.important) {
-    background-color: var(--background-primary);
-    color: var(--color-primary);
+    background-color: var(--background-info, blue);
+    color: var(--color-info);
 }
 
 :host-context(p) {
