@@ -1,9 +1,15 @@
+
+
+
 :host {
     display: block;
+    background-color: var(--background-primary);
+    color: var(--color-primary);
 }
 
 :host(.important) {
-    background-color: tomato;
+    background-color: var(--background-primary);
+    color: var(--color-primary);
 }
 
 :host-context(p) {
@@ -12,8 +18,8 @@
 
 div {
     padding: 5px;
-    background-color: blue;
-    color: white;
+    background-color:var(--background-info, blue);
+    color: var(--color-info, white);
     position: absolute;
     right: -30px;
     top: -20px;
@@ -24,8 +30,8 @@ p {
 }
 
 span {
-    background-color: blue;
-    color: white;
+    background-color:var(--background-info, blue);
+    color: var(--color-info, white);
     padding: 0.3rem 0.6rem;
     border-radius: 5rem;
     cursor: pointer;

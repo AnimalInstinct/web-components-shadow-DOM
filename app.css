@@ -1,3 +1,13 @@
+html {
+    --color-primary: #000000;
+    --background-primary: #ffffff;
+    --color-secondary: #919191;
+    --color-danger: #ffffff;
+    --background-danger: #ca0000;
+    --color-info: #ffffff;
+    --background-info: #006faf;
+}
+
 p {
     position: relative;
     width: fit-content;
@@ -8,7 +18,13 @@ span {
 }
 
 components-tooltip {
-    border: 1px solid blue;
+    background-color:var(--background-primary, blue);
+    color: var(--color-primary, white);
     padding: 40px 20px;
+    border: 1px solid var(--color-secondary)
 }
 
+components-tooltip.important {
+    background-color: var(--background-danger, red);
+    color: var(--color-danger, white);
+}
